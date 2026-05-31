@@ -65,6 +65,12 @@ Run backend tests:
 npm run test --prefix apps/api
 ```
 
+Run all checks from the project root:
+
+```bash
+npm run check
+```
+
 ## Environment Variables
 
 The API uses `apps/api/.env`.
