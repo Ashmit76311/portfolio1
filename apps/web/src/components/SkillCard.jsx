@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Badge } from '@/components/ui/badge';
 
 const SkillCard = ({ skill, level = 'familiar', icon: Icon }) => {
   const levelConfig = {
@@ -43,7 +42,7 @@ const SkillCard = ({ skill, level = 'familiar', icon: Icon }) => {
       whileHover={{ scale: 1.05, y: -4 }}
       transition={{ duration: 0.2, ease: "easeOut" }}
       className={`relative flex flex-col p-4 rounded-xl bg-card border border-border ${config.shadowClass} transition-all duration-200 overflow-hidden group`}
-      aria-label={`${skill} - ${config.label} proficiency`}
+      aria-label={`${skill} skill`}
     >
       <div className="flex items-center space-x-3 mb-3">
         <div 
@@ -57,26 +56,9 @@ const SkillCard = ({ skill, level = 'familiar', icon: Icon }) => {
           </h4>
         </div>
       </div>
-      
-      <div className="mt-auto">
-        <div className="flex justify-between items-center mb-2">
-          <Badge variant="outline" className={`${config.bgClass} ${config.textClass} ${config.borderClass} text-xs px-2 py-0.5 border`}>
-            {config.label}
-          </Badge>
-          <span className="text-xs text-muted-foreground font-medium">{config.width}</span>
-        </div>
-        <div className="w-full h-1.5 bg-muted rounded-full overflow-hidden">
-          <motion.div 
-            initial={{ width: 0 }}
-            whileInView={{ width: config.width }}
-            transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
-            viewport={{ once: true }}
-            className="h-full rounded-full"
-            style={{ backgroundColor: config.color }}
-          />
-        </div>
-      </div>
-      
+
+      {/* Remove proficiency label and percentage display to show only the skill name */}
+
       {/* Subtle hover border highlight */}
       <div 
         className="absolute inset-0 border-2 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"

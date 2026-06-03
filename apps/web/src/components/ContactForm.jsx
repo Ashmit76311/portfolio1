@@ -80,7 +80,7 @@ const ContactForm = () => {
           <input
             id="name"
             type="text"
-            placeholder="Jane Doe"
+            placeholder="Enter your name"
             className={`w-full bg-background border ${errors.name ? 'border-destructive' : 'border-primary/20'} rounded-lg px-4 py-2.5 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all duration-200`}
             aria-invalid={errors.name ? "true" : "false"}
             aria-describedby={errors.name ? "name-error" : undefined}
@@ -101,7 +101,7 @@ const ContactForm = () => {
           <input
             id="email"
             type="email"
-            placeholder="jane@example.com"
+            placeholder="Enter your email"
             className={`w-full bg-background border ${errors.email ? 'border-destructive' : 'border-primary/20'} rounded-lg px-4 py-2.5 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all duration-200`}
             aria-invalid={errors.email ? "true" : "false"}
             aria-describedby={errors.email ? "email-error" : undefined}
@@ -147,7 +147,7 @@ const ContactForm = () => {
           <textarea
             id="message"
             rows={5}
-            placeholder="How can we work together?"
+            placeholder="Enter your message"
             className={`w-full bg-background border ${errors.message ? 'border-destructive' : 'border-primary/20'} rounded-lg px-4 py-2.5 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all duration-200 resize-none`}
             aria-invalid={errors.message ? "true" : "false"}
             aria-describedby={errors.message ? "message-error" : undefined}

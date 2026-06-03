@@ -25,7 +25,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <span className="text-lg font-bold text-card-foreground">
-              Ashmit Kumar <span className="text-primary">Srivastav</span>
+              Ashmit Kumar Srivastav
             </span>
             <p className="mt-2 text-sm text-muted-foreground max-w-xs leading-relaxed">
               Full-Stack Data Engineer building intelligent systems that process, analyze, and visualize data at scale.
@@ -82,18 +82,10 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-border">
-          <div className="flex flex-col sm:flex-row justify-between items-center space-y-2 sm:space-y-0">
+          <div className="flex justify-between items-center">
             <p className="text-sm text-muted-foreground">
               © {currentYear} Ashmit Kumar Srivastav. All rights reserved.
             </p>
-            <div className="flex space-x-6">
-              <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors duration-200">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors duration-200">
-                Terms of Service
-              </a>
-            </div>
           </div>
         </div>
       </div>

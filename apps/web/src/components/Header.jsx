@@ -34,10 +34,11 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <Link to="/" className="flex items-center space-x-2">
-            <span className="text-xl font-bold text-foreground">
-              Ashmit Kumar <span className="text-primary">Srivastav</span>
-            </span>
+          <Link to="/" className="flex items-center space-x-2" aria-label="Home">
+            {/* Small initials logo */}
+            <div className="h-8 w-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold">
+              AS
+            </div>
           </Link>
 
           <nav className="hidden md:flex items-center space-x-8">

@@ -1,33 +1,44 @@
 import dotenv from 'dotenv';
-dotenv.config();
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-import app from './app.js';
-import logger from './utils/logger.js';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const envPath = path.resolve(__dirname, '../.env');
 
-process.on('uncaughtException', (error) => {
-  logger.error('Uncaught exception:', error);
-});
+dotenv.config({ path: envPath });
 
-process.on('unhandledRejection', (reason, promise) => {
-  logger.error('Unhandled rejection at:', promise, 'reason:', reason);
-});
+(async () => {
+  // Import app after dotenv is configured
+  const { default: app } = await import('./app.js');
+  const { default: logger } = await import('./utils/logger.js');
 
-process.on('SIGINT', async () => {
-  logger.info('Interrupted');
-  process.exit(0);
-});
+  process.on('uncaughtException', (error) => {
+    logger.error('Uncaught exception:', error);
+  });
 
-process.on('SIGTERM', async () => {
-  logger.info('SIGTERM signal received');
+  process.on('unhandledRejection', (reason, promise) => {
+    logger.error('Unhandled rejection at:', promise, 'reason:', reason);
+  });
 
-  await new Promise((resolve) => setTimeout(resolve, 3000));
+  process.on('SIGINT', async () => {
+    logger.info('Interrupted');
+    process.exit(0);
+  });
 
-  logger.info('Exiting');
-  process.exit();
-});
+  process.on('SIGTERM', async () => {
+    logger.info('SIGTERM signal received');
 
-const port = process.env.PORT || 3001;
+    await new Promise((resolve) => setTimeout(resolve, 3000));
 
-app.listen(port, () => {
-  logger.info(`API Server running on http://localhost:${port}`);
-});
+    logger.info('Exiting');
+    process.exit();
+  });
+
+  const port = process.env.PORT || 3001;
+
+  app.listen(port, () => {
+    logger.info(`API Server running on http://localhost:${port}`);
+  });
+})();
+
