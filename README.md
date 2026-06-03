@@ -11,10 +11,10 @@
 
 ### Personal Portfolio — Ashmit Kumar Srivastav
 
-[![Live Site](https://img.shields.io/badge/Live_Site-00FFFF?style=for-the-badge&logo=vercel&logoColor=000)](https://ashmitsrivastav.dev)
-[![Resume](https://img.shields.io/badge/Resume-0A0F1E?style=for-the-badge&logo=adobeacrobatreader&logoColor=00FFFF)](https://ashmitsrivastav.dev/resume)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0F1E?style=for-the-badge&logo=linkedin&logoColor=00FFFF)](https://linkedin.com/in/ashmit)
-[![LeetCode](https://img.shields.io/badge/LeetCode-0A0F1E?style=for-the-badge&logo=leetcode&logoColor=00FFFF)](https://leetcode.com/ashmit)
+[![Live Site](https://img.shields.io/badge/Live_Site-00FFFF?style=for-the-badge&logo=vercel&logoColor=000)](https://portfolio-ashmit.netlify.app/)
+[![Resume](https://img.shields.io/badge/Resume-0A0F1E?style=for-the-badge&logo=adobeacrobatreader&logoColor=00FFFF)](https://drive.google.com/file/d/1u5Rq2-AiT4Ox7ji4XQsUaZu1_H9_BJYV/view?usp=sharing)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0F1E?style=for-the-badge&logo=linkedin&logoColor=00FFFF)](https://www.linkedin.com/in/ashmit-kumar-srivastav/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-0A0F1E?style=for-the-badge&logo=leetcode&logoColor=00FFFF)](https://leetcode.com/u/fWSPJm4cGh/)
 
 </div>
 
@@ -141,10 +141,10 @@ apps/api/src/
 
 ## Featured projects
 
-**[URIS — Urban Route Intelligence System](https://ashmitsrivastav.dev/projects/uris)**
+**[URIS — Urban Route Intelligence System](https://github.com/Ashmit76311/Urban-Route-Intelligence-System)**
 AI-powered navigation using geospatial risk scoring — React, Node.js, Python, Mapbox GL JS, Random Forest
 
-**[Crypto Market Analytics Dashboard](https://ashmitsrivastav.dev/projects/crypto)**
+**[Crypto Market Analytics Dashboard](https://github.com/Ashmit76311/Crypto-Market-Analytics-Dashboard)**
 Real-time market data pipeline — Python, Pandas, MySQL, Apache Superset, CoinGecko API
 
 ---
