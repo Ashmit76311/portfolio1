@@ -45,7 +45,7 @@ apps/
 
 ---
 
-## Get running
+## Get running-
 
 **Prerequisites:** Node.js, npm
 
