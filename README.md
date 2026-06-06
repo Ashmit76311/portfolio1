@@ -20,7 +20,7 @@
 
 ---
 
-## What's inside
+## What's inside:
 
 A full-stack portfolio monorepo — React frontend, Express backend, contact form wired to real email. Built to show work, not just list it.
 
