@@ -130,7 +130,7 @@ apps/api/src/
 
 ---
 
-## Status
+## Status:
 
 - [x] Frontend builds and lints clean
 - [x] Backend lints and tests pass
