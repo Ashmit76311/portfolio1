@@ -32,7 +32,7 @@ apps/
 
 ---
 
-## Stack
+## Stack-
 
 | Layer | Tech |
 |---|---|
