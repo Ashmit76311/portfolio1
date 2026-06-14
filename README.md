@@ -14,10 +14,7 @@
 
 ### Full-Stack Developer | Machine Learning Enthusiast | Software Engineer
 
-[![Live Site](https://img.shields.io/badge/🌐_Live_Site-Visit_Portfolio-00FFFF?style=for-the-badge)](https://portfolio-ashmit.netlify.app/)
-[![Resume](https://img.shields.io/badge/📄_Resume-View-0A0F1E?style=for-the-badge)](https://drive.google.com/file/d/1u5Rq2-AiT4Ox7ji4XQsUaZu1_H9_BJYV/view?usp=sharing)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashmit-kumar-srivastav/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/fWSPJm4cGh/)
+[![Live Site](https://img.shields.io/badge/Live_Site-00FFFF?style=for-the-badge&logo=vercel&logoColor=000)](https://portfolio-ashmit.netlify.app/) [![Resume](https://img.shields.io/badge/Resume-0A0F1E?style=for-the-badge&logo=adobeacrobatreader&logoColor=00FFFF)](https://drive.google.com/file/d/1u5Rq2-AiT4Ox7ji4XQsUaZu1_H9_BJYV/view?usp=sharing) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0F1E?style=for-the-badge&logo=linkedin&logoColor=00FFFF)](https://www.linkedin.com/in/ashmit-kumar-srivastav/) [![LeetCode](https://img.shields.io/badge/LeetCode-0A0F1E?style=for-the-badge&logo=leetcode&logoColor=00FFFF)](https://leetcode.com/u/fWSPJm4cGh/)
 
 </div>
 
@@ -272,7 +269,5 @@ Real-time cryptocurrency analytics platform with ETL pipelines and business inte
 ### 👨‍💻 Ashmit Kumar Srivastav
 
 📧 ashmitsrivastav40@gmail.com
-
-Building scalable software, machine learning solutions, and modern web applications.
 
 </div>
