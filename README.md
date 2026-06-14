@@ -267,8 +267,6 @@ Real-time cryptocurrency analytics platform with ETL pipelines and business inte
 
 ---
 
-<div align="center">
-
 ### 👨‍💻 Ashmit Kumar Srivastav
 
 📧 ashmitsrivastav40@gmail.com
