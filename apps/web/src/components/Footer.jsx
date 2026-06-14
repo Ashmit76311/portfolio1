@@ -15,7 +15,7 @@ const Footer = () => {
   const socialLinks = [
     { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com/in/ashmit' },
     { name: 'GitHub', icon: Github, url: 'https://github.com/ashmit' },
-    { name: 'LeetCode', icon: Code2, url: 'https://leetcode.com/ashmit' },
+    { name: 'LeetCode', icon: Code2, url: 'https://leetcode.com/u/Ashmit_Srivastav/' },
     { name: 'Email', icon: Mail, url: 'mailto:ashmitsrivastav40@gmail.com' }
   ];
 
