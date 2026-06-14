@@ -7,85 +7,192 @@
 ██╔══██║╚════██║██╔══██║██║╚██╔╝██║██║   ██║   
 ██║  ██║███████║██║  ██║██║ ╚═╝ ██║██║   ██║   
 ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝   ╚═╝  
-```
 
-### Personal Portfolio — Ashmit Kumar Srivastav
+---
 
-[![Live Site](https://img.shields.io/badge/Live_Site-00FFFF?style=for-the-badge&logo=vercel&logoColor=000)](https://portfolio-ashmit.netlify.app/)
-[![Resume](https://img.shields.io/badge/Resume-0A0F1E?style=for-the-badge&logo=adobeacrobatreader&logoColor=00FFFF)](https://drive.google.com/file/d/1u5Rq2-AiT4Ox7ji4XQsUaZu1_H9_BJYV/view?usp=sharing)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0F1E?style=for-the-badge&logo=linkedin&logoColor=00FFFF)](https://www.linkedin.com/in/ashmit-kumar-srivastav/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-0A0F1E?style=for-the-badge&logo=leetcode&logoColor=00FFFF)](https://leetcode.com/u/fWSPJm4cGh/)
+# 🚀 Ashmit Kumar Srivastav Portfolio
+
+### Full-Stack Developer | Machine Learning Enthusiast | Software Engineer
+
+[![Live Site](https://img.shields.io/badge/🌐_Live_Site-Visit_Portfolio-00FFFF?style=for-the-badge)](https://portfolio-ashmit.netlify.app/)
+[![Resume](https://img.shields.io/badge/📄_Resume-View-0A0F1E?style=for-the-badge)](https://drive.google.com/file/d/1u5Rq2-AiT4Ox7ji4XQsUaZu1_H9_BJYV/view?usp=sharing)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashmit-kumar-srivastav/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/fWSPJm4cGh/)
 
 </div>
 
 ---
 
-## What's inside:
+## 🎯 About The Project
 
-A full-stack portfolio monorepo — React frontend, Express backend, contact form wired to real email. Built to show work, not just list it.
+A modern full-stack developer portfolio built to showcase projects, technical skills, achievements, and professional experience.
 
-```
-apps/
-├── web/          → React + Vite frontend (port 3000)
-└── api/          → Express backend API  (port 3001)
+Unlike a static portfolio website, this project includes a dedicated backend service powering contact functionality, email notifications, API endpoints, and future extensibility.
+
+---
+
+## ✨ Highlights
+
+- Modern React + Vite frontend
+- Express.js backend API
+- Real email integration using Nodemailer
+- Interactive Mapbox location support
+- Monorepo architecture using npm workspaces
+- Production-ready deployment structure
+- Responsive design across devices
+- Automated linting and testing workflow
+
+---
+
+## 🏗️ Architecture
+
+```text
+                        ┌─────────────────────┐
+                        │     Visitors        │
+                        └──────────┬──────────┘
+                                   │
+                                   ▼
+                    ┌───────────────────────────┐
+                    │ React + Vite Frontend     │
+                    │ Portfolio UI              │
+                    └───────────┬───────────────┘
+                                │
+                                ▼
+                    ┌───────────────────────────┐
+                    │ Express Backend API       │
+                    │ Contact & Email Service   │
+                    └───────────┬───────────────┘
+                                │
+                                ▼
+                    ┌───────────────────────────┐
+                    │ SMTP / Email Provider     │
+                    │ Nodemailer Integration    │
+                    └───────────────────────────┘
 ```
 
 ---
 
-## Stack-
+## 🛠️ Technology Stack
 
-| Layer | Tech |
-|---|---|
-| Frontend | React, Vite, React Router |
-| Backend | Node.js, Express |
-| Styling | CSS (custom, no framework) |
-| Email | Nodemailer + SMTP |
+### 🎨 Frontend
+
+| Category | Technologies |
+|-----------|-------------|
+| Framework | React |
+| Build Tool | Vite |
+| Routing | React Router |
+| Styling | Custom CSS |
 | Maps | Mapbox GL JS |
-| Tooling | ESLint, Vitest, npm workspaces |
+
+### ⚙️ Backend
+
+| Category | Technologies |
+|-----------|-------------|
+| Runtime | Node.js |
+| Framework | Express.js |
+| Email Service | Nodemailer |
+| API Layer | REST APIs |
+
+### 🧪 Development Tools
+
+| Category | Technologies |
+|-----------|-------------|
+| Package Management | npm Workspaces |
+| Linting | ESLint |
+| Testing | Vitest |
+| Version Control | Git & GitHub |
 
 ---
 
-## Get running-
+### 🚀 Technology Overview
 
-**Prerequisites:** Node.js, npm
+<p align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Nodemailer-30B980?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Mapbox-000000?style=for-the-badge&logo=mapbox&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white"/>
+</p>
+
+---
+
+## 📂 Repository Structure
+
+```text
+apps/
+├── web/
+│   ├── src/
+│   │   ├── pages/
+│   │   ├── components/
+│   │   └── components/ui/
+│   │
+│   └── public/
+│
+└── api/
+    └── src/
+        ├── routes/
+        ├── middleware/
+        └── utils/
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Clone Repository
 
 ```bash
-# 1. Clone
 git clone https://github.com/ashmit/portfolio.git
 cd portfolio
+```
 
-# 2. Install everything from root
+### Install Dependencies
+
+```bash
 npm install
+```
 
-# 3. Set up environment
+### Configure Environment
+
+```bash
 cp apps/api/.env.example apps/api/.env
-# → edit apps/api/.env with your SMTP credentials
+```
 
-# 4. Start both apps
+Update the values inside `.env`.
+
+### Start Development Servers
+
+```bash
 npm run dev
 ```
 
+---
+
+## 🌐 Local Services
+
 | Service | URL |
-|---|---|
+|----------|------|
 | Frontend | http://localhost:3000 |
-| Backend | http://localhost:3001 |
-| Health check | http://localhost:3001/health |
+| Backend API | http://localhost:3001 |
+| Health Check | http://localhost:3001/health |
 
 ---
 
-## Environment variables
-
-`apps/api/.env` — required for local dev:
+## 🔐 Environment Variables
 
 ```env
 PORT=3001
 CORS_ORIGIN=http://localhost:3000
 CONTACT_RECIPIENT_EMAIL=your-email@example.com
-```
 
-For real email sending, also add:
-
-```env
 SMTP_HOST=smtp.example.com
 SMTP_PORT=587
 SMTP_SECURE=false
@@ -94,18 +201,17 @@ SMTP_PASS=your-smtp-password
 EMAIL_FROM="Portfolio Contact <no-reply@example.com>"
 ```
 
-> Never commit real credentials. Add `.env` to `.gitignore`.
+> Never commit secrets or production credentials.
 
 ---
 
-## Commands
+## 📜 Available Commands
 
 ```bash
-npm run dev              # Start frontend + backend together
-npm run build            # Production build
-npm run check            # Lint + test everything
+npm run dev
+npm run build
+npm run check
 
-# Scoped
 npm run build --prefix apps/web
 npm run lint  --prefix apps/web
 npm run lint  --prefix apps/api
@@ -114,43 +220,59 @@ npm run test  --prefix apps/api
 
 ---
 
-## Project structure
+## 📈 Current Status
 
-```
-apps/web/src/
-├── pages/          # Route-level components (Home, Projects, About, Contact)
-├── components/     # Shared UI — Header, Footer, Cards, ContactForm
-└── components/ui/  # Base component library primitives
-
-apps/api/src/
-├── routes/         # /health, /contact
-├── middleware/     # Error handling, rate limiting
-└── utils/          # Logger, email sender
-```
+- ✅ Frontend Production Ready
+- ✅ Backend API Functional
+- ✅ Contact Form Integrated
+- ✅ Automated Testing Setup
+- ✅ Responsive Design
+- ⏳ SMTP Configuration Required for Live Email Delivery
 
 ---
 
-## Status:
+## 🌟 Featured Projects
 
-- [x] Frontend builds and lints clean
-- [x] Backend lints and tests pass
-- [x] Contact form connected to API
-- [ ] SMTP credentials needed for real email delivery
+### 🚦 Urban Route Intelligence System (URIS)
+
+AI-powered navigation platform using geospatial risk analysis and machine learning.
+
+**Tech:** React, Node.js, Python, Mapbox GL JS, Random Forest
+
+🔗 https://github.com/Ashmit76311/Urban-Route-Intelligence-System
 
 ---
 
-## Featured projects
+### 📊 Crypto Market Analytics Dashboard
 
-**[URIS — Urban Route Intelligence System](https://github.com/Ashmit76311/Urban-Route-Intelligence-System)**
-AI-powered navigation using geospatial risk scoring — React, Node.js, Python, Mapbox GL JS, Random Forest
+Real-time cryptocurrency analytics platform with ETL pipelines and business intelligence dashboards.
 
-**[Crypto Market Analytics Dashboard](https://github.com/Ashmit76311/Crypto-Market-Analytics-Dashboard)**
-Real-time market data pipeline — Python, Pandas, MySQL, Apache Superset, CoinGecko API
+**Tech:** Python, Pandas, MySQL, FastAPI, Apache Superset
+
+🔗 https://github.com/Ashmit76311/Crypto-Market-Analytics-Dashboard
+
+---
+
+## 🎯 Skills Demonstrated
+
+- Full-Stack Development
+- Frontend Engineering
+- Backend Development
+- REST API Design
+- Email Service Integration
+- Responsive Web Design
+- Testing & Quality Assurance
+- Git & Version Control
+- Software Architecture
 
 ---
 
 <div align="center">
 
-Built by **Ashmit Kumar Srivastav** · [ashmitsrivastav40@gmail.com](mailto:ashmitsrivastav40@gmail.com)
+### 👨‍💻 Ashmit Kumar Srivastav
+
+📧 ashmitsrivastav40@gmail.com
+
+Building scalable software, machine learning solutions, and modern web applications.
 
 </div>
