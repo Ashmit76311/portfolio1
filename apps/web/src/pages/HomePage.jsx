@@ -422,7 +422,7 @@ const HomePage = () => {
                         <span>GitHub Profile</span>
                       </a>
                       <a 
-                        href="https://leetcode.com/ashmit"
+                        href="https://leetcode.com/u/Ashmit_Srivastav/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-colors duration-200"
