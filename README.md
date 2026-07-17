@@ -16,10 +16,9 @@
 
 ### Personal Portfolio — Ashmit Kumar Srivastav
 
-[![Live Site](https://img.shields.io/badge/Live_Site-00FFFF?style=for-the-badge&logo=vercel&logoColor=000)](https://ashmitsrivastav.dev)
-[![Resume](https://img.shields.io/badge/Resume-0A0F1E?style=for-the-badge&logo=adobeacrobatreader&logoColor=00FFFF)](https://ashmitsrivastav.dev/resume)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0F1E?style=for-the-badge&logo=linkedin&logoColor=00FFFF)](https://linkedin.com/in/ashmit)
-[![LeetCode](https://img.shields.io/badge/LeetCode-0A0F1E?style=for-the-badge&logo=leetcode&logoColor=00FFFF)](https://leetcode.com/ashmit)
+[![Live Site](https://img.shields.io/badge/Live_Site-00FFFF?style=for-the-badge&logo=vercel&logoColor=000)](https://portfolio-ashmit.netlify.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0F1E?style=for-the-badge&logo=linkedin&logoColor=00FFFF)](https://www.linkedin.com/in/ashmit-kumar-srivastav/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-0A0F1E?style=for-the-badge&logo=leetcode&logoColor=00FFFF)](https://leetcode.com/u/Ashmit_Srivastav/)
 
 </div>
 
