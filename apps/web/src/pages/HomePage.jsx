@@ -209,7 +209,7 @@ const HomePage = () => {
               <h2 className="text-2xl md:text-3xl font-semibold text-card-foreground mb-8 leading-snug">About me</h2>
               <div className="max-w-4xl">
                 <p className="text-base text-muted-foreground leading-relaxed mb-4">
-                  I'm Ashmit, a 3rd-year Computer Science student at Raj Kumar Goel Institute of Technology and a Google Student Ambassador for Gemini. I'm passionate about building systems that turn raw data into actionable intelligence.
+                  I'm Ashmit, final year Computer Science student at Raj Kumar Goel Institute of Technology and a Google Student Ambassador for Gemini. I'm passionate about building systems that turn raw data into actionable intelligence.
                 </p>
                 <p className="text-base text-muted-foreground leading-relaxed mb-4">
                   I design and build full-stack systems that handle real-time data pipelines, write backend services in Python and Node.js that process, validate, and serve data, create interactive frontends in React that visualize complex datasets, and apply machine learning to solve real-world problems.
@@ -404,7 +404,7 @@ const HomePage = () => {
 
                     <div className="space-y-4">
                       <a 
-                        href="https://linkedin.com/in/ashmit"
+                        href="https://www.linkedin.com/in/ashmit-kumar-srivastav/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-colors duration-200"
@@ -413,7 +413,7 @@ const HomePage = () => {
                         <span>LinkedIn Profile</span>
                       </a>
                       <a 
-                        href="https://github.com/ashmit"
+                        href="https://github.com/Ashmit76311"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-colors duration-200"
