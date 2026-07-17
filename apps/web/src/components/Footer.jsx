@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <footer className="border-t border-border bg-card">
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 max-w-md gap-8">
           <div>
             <span className="text-lg font-bold text-card-foreground">
               Ashmit Kumar Srivastav
