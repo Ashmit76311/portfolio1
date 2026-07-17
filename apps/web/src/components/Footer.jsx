@@ -25,7 +25,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div>
+          <div className="flex flex-col md:items-end">
             <span className="text-sm font-semibold text-card-foreground tracking-wide">Connect</span>
             <div className="mt-4 flex space-x-4">
               {socialLinks.map((social) => {
