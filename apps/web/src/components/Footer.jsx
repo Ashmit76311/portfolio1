@@ -5,16 +5,9 @@ import { Linkedin, Github, Code2, Mail } from 'lucide-react';
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
-  const quickLinks = [
-    { name: 'Home', path: '/' },
-    { name: 'Projects', path: '/#projects' },
-    { name: 'About', path: '/#about' },
-    { name: 'Resume', path: 'https://drive.google.com/file/d/1u5Rq2-AiT4Ox7ji4XQsUaZu1_H9_BJYV/view?usp=sharing', external: true }
-  ];
-
   const socialLinks = [
-    { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com/in/ashmit' },
-    { name: 'GitHub', icon: Github, url: 'https://github.com/ashmit' },
+    { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/ashmit-kumar-srivastav/' },
+    { name: 'GitHub', icon: Github, url: 'https://github.com/Ashmit76311' },
     { name: 'LeetCode', icon: Code2, url: 'https://leetcode.com/u/Ashmit_Srivastav/' },
     { name: 'Email', icon: Mail, url: 'mailto:ashmitsrivastav40@gmail.com' }
   ];
